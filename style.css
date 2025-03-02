@@ -1,0 +1,134 @@
+body{
+    background-color: rgb(245, 245, 245);
+}
+.lo{
+    position: relative;
+    left: -8px;
+    top: -4px; 
+}
+.logogo{
+    width: 50px; 
+    height: auto;
+}
+.search-field{
+    position: relative;
+    left: 84px;
+    top: -18px
+}
+#logo img {
+    width: 10px; 
+    height: auto;
+    position: relative;
+    left: 94px;
+    top: -14px;
+}
+#Contact img {
+    width: 20px;
+    height: auto;
+}
+img.tshart {
+    width: 85px;
+    height: auto;
+    position: relative;
+    left: 10px;
+}
+.bigbox{
+    display: flex;
+    justify-items: stretch;
+    gap: 50px;
+}
+/*box1 img  */
+#box1 img {
+    width:176px; 
+    height:186;
+    margin-left: 108px;
+    position: relative;
+    left: -8px;
+    top: -4px;
+}
+/* ............... */
+/* box1 text */
+.text {
+    flex: 1;
+    padding-right: 20px;
+}
+.text h2 { /* يختار */
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    position: relative;
+    right: -27px;
+    top: -26px;
+}
+.number { /* ★*/
+    background: black;
+    color: white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+#box1 p{ /*الكلام الكبير*/
+    margin-left: -82px; /* يدفع النص إلى اليمين */
+    font-weight: bold;
+    position: relative;
+    left: 99px;
+    top: -9px;
+}
+/* ................................. */
+#box1 {
+    display: flex;
+    align-items: center;
+    background-color: #FF7B89; /* لون الخلفية */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(49, 20, 152, 0.1);
+    width: 409px;
+    height: 242px;
+}
+/* -------------------------------------------------------- */
+#box2{
+    display: flex;
+    align-items: center;
+    background: #FF7B89; /* لون الخلفية */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(49, 20, 152, 0.1);
+    width: 409px;
+    height: 242px;
+}
+#box2 p{
+    margin-left: auto;
+    font-weight: bold
+}
+#box3{
+    display: flex;
+    align-items: center;
+    background:#FF7B89; /* لون الخلفية */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(49, 20, 152, 0.1);
+    width: 409px;
+    height: 242px;
+}
+#box3 p{
+    margin-left: auto;
+    font-weight: bold
+}
+.mazagk img{
+    width:126px;
+    height: auto;
+    position: relative;
+    left: 0px;
+    top: -21px;
+}
+.soshial img{
+    width: 26px;
+    height: auto;
+    position: relative;
+    left: 3px;
+    top: -19px;
+}
